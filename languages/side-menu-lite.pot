@@ -1,0 +1,1219 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Side Menu Lite\n"
+"POT-Creation-Date: 2024-07-04 12:36+0300\n"
+"PO-Revision-Date: 2024-07-04 12:35+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: side-menu-lite.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-settings-helper.php:24 admin/settings/options/1.menu.php:22
+msgid "Link"
+msgstr ""
+
+#: admin/class-settings-helper.php:30
+msgid "Facebook"
+msgstr ""
+
+#: admin/class-settings-helper.php:31
+msgid "Twitter"
+msgstr ""
+
+#: admin/class-settings-helper.php:32
+msgid "Linkedin"
+msgstr ""
+
+#: admin/class-settings-helper.php:33
+msgid "Pinterest"
+msgstr ""
+
+#: admin/class-settings-helper.php:34
+msgid "StumbleUpon"
+msgstr ""
+
+#: admin/class-settings-helper.php:35
+msgid "Buffer"
+msgstr ""
+
+#: admin/class-settings-helper.php:36
+msgid "Email"
+msgstr ""
+
+#: admin/class-settings-helper.php:37
+msgid "XING"
+msgstr ""
+
+#: admin/class-settings-helper.php:38
+msgid "Myspace"
+msgstr ""
+
+#: admin/class-settings-helper.php:39
+msgid "Weibo"
+msgstr ""
+
+#: admin/class-settings-helper.php:40
+msgid "Reddit"
+msgstr ""
+
+#: admin/class-settings-helper.php:41
+msgid "Tumblr"
+msgstr ""
+
+#: admin/class-settings-helper.php:42
+msgid "Blogger"
+msgstr ""
+
+#: admin/class-settings-helper.php:43
+msgid "LiveJournal"
+msgstr ""
+
+#: admin/class-settings-helper.php:44
+msgid "Pocket"
+msgstr ""
+
+#: admin/class-settings-helper.php:45
+msgid "Telegram"
+msgstr ""
+
+#: admin/class-settings-helper.php:46
+msgid "Skype"
+msgstr ""
+
+#: admin/class-settings-helper.php:47
+msgid "Draugiem"
+msgstr ""
+
+#: admin/class-settings-helper.php:48
+msgid "Whatsapp"
+msgstr ""
+
+#: admin/class-settings-helper.php:49
+msgid "Diaspora"
+msgstr ""
+
+#: admin/class-settings-helper.php:50
+msgid "Digg"
+msgstr ""
+
+#: admin/class-settings-helper.php:51
+msgid "Douban"
+msgstr ""
+
+#: admin/class-settings-helper.php:52
+msgid "Evernote"
+msgstr ""
+
+#: admin/class-settings-helper.php:53
+msgid "Flipboard"
+msgstr ""
+
+#: admin/class-settings-helper.php:54
+msgid "Google Bookmarks"
+msgstr ""
+
+#: admin/class-settings-helper.php:55
+msgid "Hacker News"
+msgstr ""
+
+#: admin/class-settings-helper.php:56
+msgid "Instapaper"
+msgstr ""
+
+#: admin/class-settings-helper.php:57
+msgid "Line"
+msgstr ""
+
+#: admin/class-settings-helper.php:58
+msgid "Qzone"
+msgstr ""
+
+#: admin/class-settings-helper.php:59
+msgid "Renren"
+msgstr ""
+
+#: admin/class-settings-helper.php:60
+msgid "Google"
+msgstr ""
+
+#: admin/class-settings-helper.php:61
+msgid "VK"
+msgstr ""
+
+#: admin/class-settings-helper.php:62
+msgid "Odnoklassniki"
+msgstr ""
+
+#: admin/class-settings-helper.php:68
+msgid "Afrikaans"
+msgstr ""
+
+#: admin/class-settings-helper.php:69
+msgid "Albanian"
+msgstr ""
+
+#: admin/class-settings-helper.php:70
+msgid "Amharic"
+msgstr ""
+
+#: admin/class-settings-helper.php:71
+msgid "Arabic"
+msgstr ""
+
+#: admin/class-settings-helper.php:72
+msgid "Armenian"
+msgstr ""
+
+#: admin/class-settings-helper.php:73
+msgid "Azerbaijani"
+msgstr ""
+
+#: admin/class-settings-helper.php:74
+msgid "Basque"
+msgstr ""
+
+#: admin/class-settings-helper.php:75
+msgid "Belarusian"
+msgstr ""
+
+#: admin/class-settings-helper.php:76
+msgid "Bengali"
+msgstr ""
+
+#: admin/class-settings-helper.php:77
+msgid "Bosnian"
+msgstr ""
+
+#: admin/class-settings-helper.php:78
+msgid "Bulgarian"
+msgstr ""
+
+#: admin/class-settings-helper.php:79
+msgid "Catalan"
+msgstr ""
+
+#: admin/class-settings-helper.php:80
+msgid "Cebuano"
+msgstr ""
+
+#: admin/class-settings-helper.php:81
+msgid "Chichewa"
+msgstr ""
+
+#: admin/class-settings-helper.php:82
+msgid "Corsican"
+msgstr ""
+
+#: admin/class-settings-helper.php:83
+msgid "Croatian"
+msgstr ""
+
+#: admin/class-settings-helper.php:84
+msgid "Czech"
+msgstr ""
+
+#: admin/class-settings-helper.php:85
+msgid "Danish"
+msgstr ""
+
+#: admin/class-settings-helper.php:86
+msgid "Dutch"
+msgstr ""
+
+#: admin/class-settings-helper.php:87
+msgid "English"
+msgstr ""
+
+#: admin/class-settings-helper.php:88
+msgid "Esperanto"
+msgstr ""
+
+#: admin/class-settings-helper.php:89
+msgid "Estonian"
+msgstr ""
+
+#: admin/class-settings-helper.php:90
+msgid "Filipino"
+msgstr ""
+
+#: admin/class-settings-helper.php:91
+msgid "Finnish"
+msgstr ""
+
+#: admin/class-settings-helper.php:92
+msgid "French"
+msgstr ""
+
+#: admin/class-settings-helper.php:93
+msgid "Frisian"
+msgstr ""
+
+#: admin/class-settings-helper.php:94
+msgid "Galician"
+msgstr ""
+
+#: admin/class-settings-helper.php:95
+msgid "Georgian"
+msgstr ""
+
+#: admin/class-settings-helper.php:96
+msgid "German"
+msgstr ""
+
+#: admin/class-settings-helper.php:97
+msgid "Greek"
+msgstr ""
+
+#: admin/class-settings-helper.php:98
+msgid "Gujarati"
+msgstr ""
+
+#: admin/class-settings-helper.php:99
+msgid "Haitian Creole"
+msgstr ""
+
+#: admin/class-settings-helper.php:100
+msgid "Hausa"
+msgstr ""
+
+#: admin/class-settings-helper.php:101
+msgid "Hawaiian"
+msgstr ""
+
+#: admin/class-settings-helper.php:102
+msgid "Hebrew"
+msgstr ""
+
+#: admin/class-settings-helper.php:103
+msgid "Hindi"
+msgstr ""
+
+#: admin/class-settings-helper.php:104
+msgid "Hmong"
+msgstr ""
+
+#: admin/class-settings-helper.php:105
+msgid "Hungarian"
+msgstr ""
+
+#: admin/class-settings-helper.php:106
+msgid "Icelandic"
+msgstr ""
+
+#: admin/class-settings-helper.php:107
+msgid "Igbo"
+msgstr ""
+
+#: admin/class-settings-helper.php:108
+msgid "Indonesian"
+msgstr ""
+
+#: admin/class-settings-helper.php:109
+msgid "Irish"
+msgstr ""
+
+#: admin/class-settings-helper.php:110
+msgid "Italian"
+msgstr ""
+
+#: admin/class-settings-helper.php:111
+msgid "Japanese"
+msgstr ""
+
+#: admin/class-settings-helper.php:112
+msgid "Javanese"
+msgstr ""
+
+#: admin/class-settings-helper.php:113
+msgid "Kannada"
+msgstr ""
+
+#: admin/class-settings-helper.php:114
+msgid "Kazakh"
+msgstr ""
+
+#: admin/class-settings-helper.php:115
+msgid "Khmer"
+msgstr ""
+
+#: admin/class-settings-helper.php:116
+msgid "Korean"
+msgstr ""
+
+#: admin/class-settings-helper.php:117
+msgid "Kurdish (Kurmanji)"
+msgstr ""
+
+#: admin/class-settings-helper.php:118
+msgid "Kyrgyz"
+msgstr ""
+
+#: admin/class-settings-helper.php:119
+msgid "Lao"
+msgstr ""
+
+#: admin/class-settings-helper.php:120
+msgid "Latin"
+msgstr ""
+
+#: admin/class-settings-helper.php:121
+msgid "Latvian"
+msgstr ""
+
+#: admin/class-settings-helper.php:122
+msgid "Luxembourgish"
+msgstr ""
+
+#: admin/class-settings-helper.php:123
+msgid "Macedonian"
+msgstr ""
+
+#: admin/class-settings-helper.php:124
+msgid "Malagasy"
+msgstr ""
+
+#: admin/class-settings-helper.php:125
+msgid "Malay"
+msgstr ""
+
+#: admin/class-settings-helper.php:126
+msgid "Malayalam"
+msgstr ""
+
+#: admin/class-settings-helper.php:127
+msgid "Maltese"
+msgstr ""
+
+#: admin/class-settings-helper.php:128
+msgid "Maori"
+msgstr ""
+
+#: admin/class-settings-helper.php:129
+msgid "Marathi"
+msgstr ""
+
+#: admin/class-settings-helper.php:130
+msgid "Mongolian"
+msgstr ""
+
+#: admin/class-settings-helper.php:131
+msgid "Myanmar (Burmese)"
+msgstr ""
+
+#: admin/class-settings-helper.php:132
+msgid "Nepali"
+msgstr ""
+
+#: admin/class-settings-helper.php:133
+msgid "Norwegian"
+msgstr ""
+
+#: admin/class-settings-helper.php:134
+msgid "Pashto"
+msgstr ""
+
+#: admin/class-settings-helper.php:135
+msgid "Persian"
+msgstr ""
+
+#: admin/class-settings-helper.php:136
+msgid "Polish"
+msgstr ""
+
+#: admin/class-settings-helper.php:137
+msgid "Portuguese"
+msgstr ""
+
+#: admin/class-settings-helper.php:138
+msgid "Punjabi"
+msgstr ""
+
+#: admin/class-settings-helper.php:139
+msgid "Romanian"
+msgstr ""
+
+#: admin/class-settings-helper.php:140
+msgid "Russian"
+msgstr ""
+
+#: admin/class-settings-helper.php:141
+msgid "Samoan"
+msgstr ""
+
+#: admin/class-settings-helper.php:142
+msgid "Scottish Gaelic"
+msgstr ""
+
+#: admin/class-settings-helper.php:143
+msgid "Serbian"
+msgstr ""
+
+#: admin/class-settings-helper.php:144
+msgid "Sesotho"
+msgstr ""
+
+#: admin/class-settings-helper.php:145
+msgid "Shona"
+msgstr ""
+
+#: admin/class-settings-helper.php:146
+msgid "Sindhi"
+msgstr ""
+
+#: admin/class-settings-helper.php:147
+msgid "Sinhala"
+msgstr ""
+
+#: admin/class-settings-helper.php:148
+msgid "Slovak"
+msgstr ""
+
+#: admin/class-settings-helper.php:149
+msgid "Slovenian"
+msgstr ""
+
+#: admin/class-settings-helper.php:150
+msgid "Somali"
+msgstr ""
+
+#: admin/class-settings-helper.php:151
+msgid "Spanish"
+msgstr ""
+
+#: admin/class-settings-helper.php:152
+msgid "Sudanese"
+msgstr ""
+
+#: admin/class-settings-helper.php:153
+msgid "Swahili"
+msgstr ""
+
+#: admin/class-settings-helper.php:154
+msgid "Swedish"
+msgstr ""
+
+#: admin/class-settings-helper.php:155
+msgid "Tajik"
+msgstr ""
+
+#: admin/class-settings-helper.php:156
+msgid "Tamil"
+msgstr ""
+
+#: admin/class-settings-helper.php:157
+msgid "Telugu"
+msgstr ""
+
+#: admin/class-settings-helper.php:158
+msgid "Thai"
+msgstr ""
+
+#: admin/class-settings-helper.php:159
+msgid "Turkish"
+msgstr ""
+
+#: admin/class-settings-helper.php:160
+msgid "Ukrainian"
+msgstr ""
+
+#: admin/class-settings-helper.php:161
+msgid "Urdu"
+msgstr ""
+
+#: admin/class-settings-helper.php:162
+msgid "Uzbek"
+msgstr ""
+
+#: admin/class-settings-helper.php:163
+msgid "Vietnamese"
+msgstr ""
+
+#: admin/class-settings-helper.php:164
+msgid "Welsh"
+msgstr ""
+
+#: admin/class-settings-helper.php:165
+msgid "Xhosa"
+msgstr ""
+
+#: admin/class-settings-helper.php:166
+msgid "Yiddish"
+msgstr ""
+
+#: admin/class-settings-helper.php:167
+msgid "Yoruba"
+msgstr ""
+
+#: admin/class-settings-helper.php:168
+msgid "Zulu"
+msgstr ""
+
+#: admin/class-settings-helper.php:298
+msgid "None"
+msgstr ""
+
+#: admin/class-settings-helper.php:299
+msgid "Beat"
+msgstr ""
+
+#: admin/class-settings-helper.php:300
+msgid "Fade"
+msgstr ""
+
+#: admin/class-settings-helper.php:301
+msgid "Beat-Fade"
+msgstr ""
+
+#: admin/class-settings-helper.php:302
+msgid "Bounce"
+msgstr ""
+
+#: admin/class-settings-helper.php:303
+msgid "Flip"
+msgstr ""
+
+#: admin/class-settings-helper.php:304
+msgid "Shake"
+msgstr ""
+
+#: admin/class-settings-helper.php:305
+msgid "Spin"
+msgstr ""
+
+#: admin/class-settings-helper.php:2350 admin/settings/options/1.menu.php:29
+#: admin/settings/options/2.style.php:182
+#: admin/settings/options/3.settings.php:10
+#: admin/settings/options/template.php:50
+msgid "Enable"
+msgstr ""
+
+#: admin/pages/1.list.php:58
+msgid "Search"
+msgstr ""
+
+#: admin/pages/2.settings.php:33
+msgid "Enter title here"
+msgstr ""
+
+#: admin/pages/2.settings.php:35
+msgid "Add title"
+msgstr ""
+
+#: admin/pages/3.tools.php:18
+msgid "Export Settings"
+msgstr ""
+
+#. translators: %s: plugin name
+#: admin/pages/3.tools.php:22
+#, php-format
+msgid ""
+"Export the  settings for %s as a .json file. This allows you to easily "
+"import the configuration into another site."
+msgstr ""
+
+#: admin/pages/3.tools.php:30
+msgid "Import Settings"
+msgstr ""
+
+#. translators: %s: plugin name
+#: admin/pages/3.tools.php:34
+#, php-format
+msgid ""
+"Import the %s settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+
+#: admin/pages/4.support.php:17
+msgid ""
+"To get your support related question answered in the fastest timing, please "
+"send a message via the form below or write to us via"
+msgstr ""
+
+#: admin/pages/4.support.php:18
+msgid "support page"
+msgstr ""
+
+#: admin/pages/4.support.php:23
+msgid ""
+"Also, you can send us your ideas and suggestions for improving the plugin."
+msgstr ""
+
+#: admin/settings/1.menu.php:49 admin/settings/1.menu.php:144
+#: admin/settings/options/1.menu.php:16
+msgid "Type"
+msgstr ""
+
+#: admin/settings/1.menu.php:50 admin/settings/1.menu.php:145
+#: admin/settings/options/1.menu.php:36 admin/settings/options/1.menu.php:43
+msgid "Icon"
+msgstr ""
+
+#: admin/settings/1.menu.php:51 admin/settings/1.menu.php:146
+msgid "Style"
+msgstr ""
+
+#: admin/settings/1.menu.php:52 admin/settings/1.menu.php:91
+#: admin/settings/1.menu.php:147 admin/settings/1.menu.php:199
+msgid "Attributes"
+msgstr ""
+
+#: admin/settings/1.menu.php:110
+msgid "Add Button"
+msgstr ""
+
+#: admin/settings/1.menu.php:148
+msgid "Extra text"
+msgstr ""
+
+#: admin/settings/2.style.php:25
+msgid "Properties"
+msgstr ""
+
+#: admin/settings/2.style.php:53
+msgid "Location"
+msgstr ""
+
+#: admin/settings/2.style.php:84
+msgid "Appearance"
+msgstr ""
+
+#: admin/settings/2.style.php:120
+msgid "Size"
+msgstr ""
+
+#: admin/settings/3.settings.php:18 classes/Admin/Dashboard.php:37
+msgid "Settings"
+msgstr ""
+
+#: admin/settings/4.rules.php:25
+msgid "Display Rules"
+msgstr ""
+
+#: admin/settings/4.rules.php:50
+msgid "Responsive Visibility"
+msgstr ""
+
+#: admin/settings/4.rules.php:78
+msgid "Other"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:10
+msgid "Label Text"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:28
+msgid "Open in new Window"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:56
+msgid "Font Color"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:66
+msgid "Icon Color"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:76
+msgid "Background"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:86
+msgid "Hover Background"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:91
+msgid "Label Font Family"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:93
+msgid "Use Your Themes"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:94
+msgid "Tahoma"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:95
+msgid "Georgia"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:96
+msgid "Comic Sans MS"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:97
+msgid "Arial"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:98
+msgid "Lucida Grande"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:99
+msgid "Times New Roman"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:105
+msgid "Label Font Style"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:107 admin/settings/options/1.menu.php:116
+#: admin/settings/options/2.style.php:90
+msgid "Normal"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:108
+msgid "Italic"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:114
+msgid "Label Font Weight "
+msgstr ""
+
+#: admin/settings/options/1.menu.php:117 admin/settings/options/2.style.php:93
+msgid "Lighter"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:118 admin/settings/options/2.style.php:91
+msgid "Bold"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:119 admin/settings/options/2.style.php:92
+msgid "Bolder"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:126
+msgid "ID for element"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:131
+msgid "Class for element"
+msgstr ""
+
+#: admin/settings/options/1.menu.php:136
+msgid "Attribute: rel"
+msgstr ""
+
+#: admin/settings/options/2.style.php:9
+msgid "Z-index"
+msgstr ""
+
+#: admin/settings/options/2.style.php:22
+msgid "Position"
+msgstr ""
+
+#: admin/settings/options/2.style.php:25
+msgid "Left"
+msgstr ""
+
+#: admin/settings/options/2.style.php:26
+msgid "Right"
+msgstr ""
+
+#: admin/settings/options/2.style.php:32
+msgid "Vertical alignment"
+msgstr ""
+
+#: admin/settings/options/2.style.php:35
+msgid "Top"
+msgstr ""
+
+#: admin/settings/options/2.style.php:36
+msgid "Center"
+msgstr ""
+
+#: admin/settings/options/2.style.php:37
+msgid "Bottom"
+msgstr ""
+
+#: admin/settings/options/2.style.php:43
+msgid "Offset"
+msgstr ""
+
+#: admin/settings/options/2.style.php:54
+msgid "Space between items"
+msgstr ""
+
+#: admin/settings/options/2.style.php:67
+msgid "Shadow"
+msgstr ""
+
+#: admin/settings/options/2.style.php:70
+msgid "Yes"
+msgstr ""
+
+#: admin/settings/options/2.style.php:71
+msgid "No"
+msgstr ""
+
+#: admin/settings/options/2.style.php:77
+msgid "Font style"
+msgstr ""
+
+#: admin/settings/options/2.style.php:87
+msgid "Font weight"
+msgstr ""
+
+#: admin/settings/options/2.style.php:99
+msgid "Border width"
+msgstr ""
+
+#: admin/settings/options/2.style.php:111
+msgid "Top border radius"
+msgstr ""
+
+#: admin/settings/options/2.style.php:123
+msgid "Bottom border radius"
+msgstr ""
+
+#: admin/settings/options/2.style.php:136
+msgid "Border color"
+msgstr ""
+
+#: admin/settings/options/2.style.php:147
+#: admin/settings/options/2.style.php:197
+msgid "Item Height"
+msgstr ""
+
+#: admin/settings/options/2.style.php:158
+#: admin/settings/options/2.style.php:208
+msgid "Icon Size"
+msgstr ""
+
+#: admin/settings/options/2.style.php:169
+#: admin/settings/options/2.style.php:219
+msgid "Font size"
+msgstr ""
+
+#: admin/settings/options/2.style.php:181
+msgid "Mobile devices"
+msgstr ""
+
+#: admin/settings/options/2.style.php:187
+msgid "Mobile screen"
+msgstr ""
+
+#: admin/settings/options/3.settings.php:9
+msgid "Deactivate touch rule"
+msgstr ""
+
+#: admin/settings/options/4.rules.php:9 admin/settings/options/4.rules.php:12
+msgid "General"
+msgstr ""
+
+#: admin/settings/options/4.rules.php:10
+msgid "Everywhere"
+msgstr ""
+
+#: admin/settings/options/4.rules.php:11 classes/Admin/ListTable.php:97
+msgid "Shortcode"
+msgstr ""
+
+#: admin/settings/options/4.rules.php:22
+msgid "Display"
+msgstr ""
+
+#: admin/settings/options/4.rules.php:34
+msgid "Disable Font Awesome Icon"
+msgstr ""
+
+#: admin/settings/options/4.rules.php:36
+msgid "Disable"
+msgstr ""
+
+#: admin/settings/options/4.rules.php:45
+msgid "Hide on smaller screens"
+msgstr ""
+
+#: admin/settings/options/4.rules.php:56
+msgid "Hide on larger screens"
+msgstr ""
+
+#: admin/settings/options/template.php:8 admin/settings/options/template.php:17
+#: admin/settings/options/template.php:28
+#: admin/settings/options/template.php:49
+#: admin/settings/options/template.php:54 classes/Admin/ListTable.php:96
+msgid "Title"
+msgstr ""
+
+#: admin/settings/options/template.php:11
+msgid "Placeholder"
+msgstr ""
+
+#: admin/settings/options/template.php:31
+#: admin/settings/options/template.php:65
+msgid "1"
+msgstr ""
+
+#: admin/settings/options/template.php:32
+#: admin/settings/options/template.php:66
+msgid "2"
+msgstr ""
+
+#: admin/settings/options/template.php:33
+#: admin/settings/options/template.php:67
+msgid "3"
+msgstr ""
+
+#: admin/settings/options/template.php:40
+msgid "Color"
+msgstr ""
+
+#: admin/settings/pro-plugin.php:21
+msgid "PRO FEATURES"
+msgstr ""
+
+#: admin/settings/sidebar.php:23
+msgid "Publish"
+msgstr ""
+
+#: admin/settings/sidebar.php:27 classes/Admin/ListTable.php:102
+msgid "Status"
+msgstr ""
+
+#: admin/settings/sidebar.php:30 classes/Admin/ListTable.php:265
+msgid "Deactivate"
+msgstr ""
+
+#: admin/settings/sidebar.php:35 classes/Admin/ListTable.php:99
+msgid "Test mode"
+msgstr ""
+
+#: admin/settings/sidebar.php:38 classes/Admin/ListTable.php:264
+msgid "Activate"
+msgstr ""
+
+#: admin/settings/sidebar.php:83 classes/Admin/ListTable.php:58
+msgid "Delete"
+msgstr ""
+
+#: admin/settings/sidebar.php:91 classes/Admin/ListTable.php:56
+msgid "Duplicate"
+msgstr ""
+
+#: classes/Admin/AdminNotices.php:39
+msgid "Item Saved"
+msgstr ""
+
+#: classes/Admin/AdminNotices.php:45
+msgid "Item Remove"
+msgstr ""
+
+#. translators: 1: Rating link (URL), 2: Plugin name
+#: classes/Admin/Dashboard.php:52
+#, php-format
+msgid ""
+"Thank you for using <b>%2$s</b>! Please <a href=\"%1$s\" "
+"target=\"_blank\">rate us</a>"
+msgstr ""
+
+#: classes/Admin/Dashboard.php:132
+msgid "Add New"
+msgstr ""
+
+#: classes/Admin/Dashboard.php:166
+msgid "Update"
+msgstr ""
+
+#: classes/Admin/ImporterExporter.php:25
+msgid "Export All Data"
+msgstr ""
+
+#: classes/Admin/ImporterExporter.php:44
+msgid "Update item if item already exists."
+msgstr ""
+
+#: classes/Admin/ImporterExporter.php:51
+msgid "Import"
+msgstr ""
+
+#: classes/Admin/ImporterExporter.php:71
+msgid "Please upload a valid .json file"
+msgstr ""
+
+#: classes/Admin/ImporterExporter.php:72
+msgid "Error"
+msgstr ""
+
+#: classes/Admin/ListTable.php:50
+msgid "Untitled"
+msgstr ""
+
+#: classes/Admin/ListTable.php:54
+msgid "Edit"
+msgstr ""
+
+#: classes/Admin/ListTable.php:60
+msgid "Export"
+msgstr ""
+
+#: classes/Admin/ListTable.php:64
+msgid "View"
+msgstr ""
+
+#: classes/Admin/ListTable.php:98
+msgid "Tag"
+msgstr ""
+
+#: classes/Admin/ListTable.php:100
+msgid "The item will only be displayed for administrators."
+msgstr ""
+
+#: classes/Admin/ListTable.php:103
+msgid "Display item on the Frontend."
+msgstr ""
+
+#: classes/Admin/ListTable.php:138
+msgid "UnTitle"
+msgstr ""
+
+#: classes/Admin/ListTable.php:139
+msgid "Click for Deactivate."
+msgstr ""
+
+#: classes/Admin/ListTable.php:140
+msgid "Click for Activate."
+msgstr ""
+
+#: classes/Admin/ListTable.php:141 classes/Admin/ListTable.php:150
+msgid "OFF"
+msgstr ""
+
+#: classes/Admin/ListTable.php:143 classes/Admin/ListTable.php:152
+msgid "ON"
+msgstr ""
+
+#: classes/Admin/ListTable.php:147
+msgid "Click for OFF."
+msgstr ""
+
+#: classes/Admin/ListTable.php:148
+msgid "Click for ON."
+msgstr ""
+
+#: classes/Admin/ListTable.php:263
+msgid "Delate"
+msgstr ""
+
+#: classes/Admin/ListTable.php:266
+msgid "Test mode ON"
+msgstr ""
+
+#: classes/Admin/ListTable.php:267
+msgid "Test mode OFF"
+msgstr ""
+
+#: classes/Admin/ListTable.php:318
+msgid "Filter by tag"
+msgstr ""
+
+#: classes/Admin/ListTable.php:321
+msgid "All"
+msgstr ""
+
+#: classes/Admin/ListTable.php:334
+msgid "Filter"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:24
+msgid "Support Form"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:29
+msgid "Your Name"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:37
+msgid "Contact email"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:49
+msgid "Link to the issue"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:58
+msgid "Message type"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:62
+msgid "Issue"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:63
+msgid "Idea"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:71
+msgid "Plugin"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:80
+msgid "License Key"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:91
+msgid "Enter Your Message"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:102
+msgid "Send to Support"
+msgstr ""
+
+#: classes/Admin/SupportForm.php:167
+msgid "Your message has been sent to the support team."
+msgstr ""
+
+#: classes/Admin/SupportForm.php:170
+msgid "Sorry, but message did not send. Please, contact us via support page."
+msgstr ""
+
+#: classes/Admin/SupportForm.php:182
+msgid "Please fill in all the form fields below."
+msgstr ""
+
+#: includes/class-wow-company.php:27
+msgid "WordPress plugins from Wow-Company"
+msgstr ""
+
+#: includes/class-wow-company.php:28
+msgid "Wow Plugins"
+msgstr ""
+
+#: side-menu-lite.php:142 side-menu-lite.php:153
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Side Menu Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/side-menu-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Provide any extra content and functionality with the attention-grabbing side "
+"menu!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wow-Company"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wow-estore.com/"
+msgstr ""

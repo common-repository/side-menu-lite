@@ -1,0 +1,418 @@
+/*--------------------------------------------------------------
+/*		Reset
+/*  --------------------------------------------------------------
+
+.side-menu,
+.side-menu *
+  list-style: none
+  margin: 0
+  padding: 0
+  border: 0
+  outline: none
+  text-decoration: none
+  line-height: 1
+
+/*--------------------------------------------------------------
+/*		Root
+/*  --------------------------------------------------------------
+
+.side-menu
+  --sm-z-index: 9999
+  --sm-offset: 0px
+  --sm-color: #ffffff
+  --sm-icon-color: #ffffff
+  --sm-extra-text-color: #ffffff
+  --sm-background: #128be0
+  --sm-hover-background: #128be0
+  --sm-item-height: 40px
+  --sm-icon-width: 40px
+  --sm-icon-size: 24px
+  --sm-label-size: 16px
+  --sm-label-font: inherit
+  --sm-label-font-style: normal
+  --sm-label-font-weight: normal
+  --sm-border-width: 0px
+  --sm-border-color: rgba(0, 0, 0, 0.75)
+  --sm-radius-top: 0px
+  --sm-radius-bottom: 0px
+  --sm-button-space: 2px
+  --sm-extra-text-width: 270px
+  --sm-extra-fontsize: 16px
+
+/*--------------------------------------------------------------
+/*		Main
+/*  --------------------------------------------------------------
+
+.side-menu
+  position: fixed
+  z-index: var(--sm-z-index)
+  @media print
+    display: none
+
+  &.is-hidden
+    //display: none
+    &.is-left
+      left: calc((var(--sm-icon-width) + 10px) * -1)
+
+    &.is-right
+      right: calc((var(--sm-icon-width) + 10px) * -1)
+
+  .sm-list
+    display: flex
+    flex-direction: column
+    gap: var(--sm-button-space)
+
+  .sm-item
+    position: relative
+    transition: transform 0.4s, opacity 0.4s linear
+
+    &:has(> .sm-link:focus) > .sm-link,
+    &:hover > .sm-link
+      background-color: var(--sm-hover-background)
+
+  .sm-link
+    display: flex
+    height: var(--sm-item-height)
+    align-items: center
+    color: var(--sm-color)
+    background-color: var(--sm-background)
+    cursor: pointer
+    transition: background-color 0.2s linear
+
+
+  .sm-icon
+    width: var(--sm-icon-width)
+    color: var(--sm-icon-color)
+    font-size: var(--sm-icon-size)
+    text-align: center
+
+    img
+      width: var(--sm-icon-size)
+
+    &.is-hidden
+      display: none
+
+  .sm-label
+    padding: 0 10px
+    font-size: var(--sm-label-size)
+    font-family: var(--sm-label-font)
+    font-style: var(--sm-label-font-style)
+    font-weight: var(--sm-label-font-weight)
+
+  .sm-input
+    box-sizing: border-box
+    background-color: #fff
+    height: calc(var(--sm-item-height) - 2px)
+    padding-left: 5px
+    padding-right: 5px
+
+    &::-webkit-search-decoration,
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-results-button,
+    &::-webkit-search-results-decoration
+      display: none
+
+/*--------------------------------------------------------------
+/*		Appearance
+/*  --------------------------------------------------------------
+
+.side-menu
+  &.sm-connected
+    .sm-list
+      border-width: var(--sm-border-width) var(--sm-border-width) var(--sm-border-width) 0
+      border-style: solid
+      border-color: var(--sm-border-color)
+
+    &.has-shadow
+      .sm-list
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+
+  &:not(.sm-connected)
+    .sm-list .sm-item .sm-link
+      border-width: var(--sm-border-width) var(--sm-border-width) var(--sm-border-width) 0
+      border-style: solid
+      border-color: var(--sm-border-color)
+
+    &.has-shadow
+      .sm-list .sm-item .sm-link
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+
+/*--------------------------------------------------------------
+/*		Position Left
+/*  --------------------------------------------------------------
+
+.side-menu.is-left
+  left: 0
+  transform: translateX(-100%) translateX(var(--sm-icon-width))
+  transition: left .4s ease-in-out
+
+  &.-top
+    top: 0
+    margin-top: var(--sm-offset)
+
+  &.-center
+    top: 50%
+    margin-top: var(--sm-offset)
+    transform: translateY(-50%) translateX(-100%) translateX(var(--sm-icon-width))
+
+  &.-bottom
+    bottom: 0
+    margin-bottom: var(--sm-offset)
+
+  /* Default */
+
+
+  &:not(.sm-connected)
+    .sm-item
+      align-self: end
+
+      .sm-link
+        flex-direction: row-reverse
+        border-top-right-radius: var(--sm-radius-top)
+        border-bottom-right-radius: var(--sm-radius-bottom)
+
+      &.sm-open,
+      &:has(.sm-link:focus),
+      &:hover
+        transform: translateX(100%) translateX(calc(var(--sm-icon-width) * -1))
+
+        .sm-icon.is-hidden
+          display: block
+
+        .sm-icon.is-visible
+          display: none
+
+
+  /* Connected */
+
+
+
+  &.sm-connected
+    transition: transform 0.4s linear
+
+    > .sm-list
+      border-top-right-radius: var(--sm-radius-top)
+      border-bottom-right-radius: var(--sm-radius-bottom)
+
+      > .sm-item:first-child .sm-link
+        border-top-right-radius: var(--sm-radius-top)
+
+      > .sm-item:last-child .sm-link
+        border-bottom-right-radius: var(--sm-radius-bottom)
+
+    > .sm-list > .sm-item > .sm-link
+      flex-direction: row-reverse
+
+    &.sm-open,
+    &:has(.sm-link:focus),
+    &:hover
+      transform: translateY(-50%) translateX(0)
+
+      .sm-icon.is-hidden
+        display: block
+
+      .sm-icon.is-visible
+        display: none
+
+
+/*--------------------------------------------------------------
+/*		Position Right
+/*  --------------------------------------------------------------
+
+.side-menu.is-right
+  right: 0
+  margin-top: var(--sm-offset)
+  transform: translateX(100%) translateX(calc(var(--sm-icon-width) * -1))
+  transition: right .4s ease-in-out
+
+  &.-top
+    top: 0
+
+  &.-center
+    top: 50%
+    margin-top: var(--sm-offset)
+    transform: translateY(-50%) translateX(100%) translateX(calc(var(--sm-icon-width) * -1))
+
+  &.-bottom
+    bottom: 0
+    margin-bottom: var(--sm-offset)
+
+  /* Default */
+
+  &:not(.sm-connected)
+    .sm-item
+      align-self: start
+
+      .sm-link
+        border-width: var(--sm-border-width) 0 var(--sm-border-width) var(--sm-border-width)
+        border-top-left-radius: var(--sm-radius-top)
+        border-bottom-left-radius: var(--sm-radius-bottom)
+
+      &.sm-open,
+      &:has(.sm-link:focus),
+      &:hover
+        transform: translateX(-100%) translateX(calc(var(--sm-icon-width)))
+
+  /* Connected */
+
+  &.sm-connected
+    transition: transform 0.4s linear
+
+    > .sm-list
+      border-width: var(--sm-border-width) 0 var(--sm-border-width) var(--sm-border-width)
+      border-top-left-radius: var(--sm-radius-top)
+      border-bottom-left-radius: var(--sm-radius-bottom)
+
+      > .sm-item:first-child .sm-link
+        border-top-left-radius: var(--sm-radius-top)
+
+      > .sm-item:last-child .sm-link
+        border-bottom-left-radius: var(--sm-radius-bottom)
+
+    &.sm-open,
+    &:has(.sm-link:focus),
+    &:hover
+      transform: translateY(-50%) translateX(0)
+
+/*--------------------------------------------------------------
+/*		Extra Text
+/*  --------------------------------------------------------------
+
+.sm-item.has-text
+  &:focus,
+  &:hover
+    z-index: 9
+
+.sm-extra-text *
+  color: var(--sm-color)
+
+.sm-extra-text
+  box-sizing: border-box
+  position: absolute
+  top: var(--sm-item-height)
+  width: var(--sm-extra-text-width)
+  padding: 15px
+  font-size: var(--sm-extra-fontsize)
+  background-color: var(--sm-hover-background)
+  opacity: 0
+  visibility: hidden
+  transition: opacity 0.4s, visibility 0.4s linear
+
+  p + p
+    margin-top: 15px
+
+  ul
+    list-style: disc
+    padding-left: 10px
+    margin: 15px 0 15px 15px
+
+    li
+      list-style: disc
+
+  a
+    color: inherit
+    text-decoration: underline
+
+
+.sm-extra-text + .sm-link
+  width: var(--sm-extra-text-width)
+
+.sm-item.sm-open,
+.sm-item:has(.sm-link:focus),
+.sm-item:focus
+  z-index: 11
+
+  .sm-extra-text
+    opacity: 1
+    visibility: visible
+
+
+/*--------------------------------------------------------------
+/*		Sub Menu
+/*  --------------------------------------------------------------
+
+.side-menu
+
+  .sm-has-submenu
+    position: relative
+
+    &.sm-open,
+    &:has(.sm-link:focus),
+    &:hover
+      z-index: 9
+
+      .sm-sub-menu
+        visibility: visible
+        opacity: 1
+
+  &.has-shadow
+    .sm-has-submenu .sm-sub-link
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+
+  &:not(.sm-connected)
+    .sm-sub-menu
+
+      padding-top: var(--sm-button-space)
+
+  &.sm-connected
+    .sm-sub-menu
+      top: 0
+
+
+  .sm-sub-menu
+    display: flex
+    gap: var(--sm-button-space)
+    flex-direction: column
+    position: absolute
+    visibility: hidden
+    opacity: 0
+    width: max-content
+    transition: visibility 0.3s, opacity 0.3s linear
+
+    .sm-item
+      transform: none !important
+
+      &:focus,
+      &:hover
+        transform: none !important
+
+
+/*--------------------------------------------------------------
+/*		Sub Menu position
+/*  --------------------------------------------------------------
+
+.side-menu.is-left
+
+  .sm-sub-label
+    left: -999999px
+
+  .sm-sub-link:focus .sm-sub-label,
+  .sm-sub-link:hover .sm-sub-label
+    left: var(--sm-icon-width)
+
+  &:not(.sm-connected)
+    .sm-sub-menu
+      right: 0
+
+  &.sm-connected
+    .sm-sub-menu
+      left: calc(100% + var(--sm-border-width))
+      padding-left: var(--sm-button-space)
+
+
+.side-menu.is-right
+  .sm-sub-label
+    right: -999999px
+
+  .sm-sub-link:focus .sm-sub-label,
+  .sm-sub-link:hover .sm-sub-label
+    right: var(--sm-icon-width)
+
+  &:not(.sm-connected)
+    .sm-sub-menu
+      left: 0
+
+  &.sm-connected
+    .sm-sub-menu
+      right: calc(100% + var(--sm-border-width))
+      padding-right: var(--sm-button-space)
